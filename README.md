@@ -45,7 +45,7 @@ Podsumowanie działania programu
 
 Debugowanie 2 (20h: 09h, 21h: 0Ah)
 
-1.	Uruchomienie zmodyfikowanego programu.
+1.Uruchomienie zmodyfikowanego programu.
 
 o	Pod adres 20h wpisano wartość 09h.
 
@@ -53,7 +53,7 @@ o	Pod adres 21h wpisano wartość 0Ah.
 
 ![Obraz6](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/774a977a-5695-4df9-a6f9-7549403b5c46)
 
-2.	Dodawanie pierwszej części liczby.
+2.Dodawanie pierwszej części liczby.
 
 o	Analogicznie jak wcześniej.
 
@@ -67,7 +67,7 @@ o	Aktywowane flagi PSW (Program Status Word).
 
 ![Obraz7](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/fdf55a8c-d95e-462e-ab8a-24f1507b7376)
 
-3.	Dodawanie drugiej części liczby.
+3.Dodawanie drugiej części liczby.
 
 o	Analogicznie jak wcześniej.
 
@@ -88,6 +88,7 @@ Podsumowanie działania programu
 •	Wynik: 0DF1h (poprawny).
 
 ![Obraz9](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/fe5dcf01-20dd-42da-8dab-aa846002708d)
+
 •	Aktywowane flagi PSW.
 
 o	P – parity bit.
@@ -96,14 +97,14 @@ o	AC – auxiliary carry.
 
 Debugowanie 3 (20h: 18h, 21h: 00h)
 
-1.	Uruchomienie zmodyfikowanego programu.
+1.Uruchomienie zmodyfikowanego programu.
 
 o	Pod adres 20h wpisano wartość 18h.
 
 o	Pod adres 21h wpisano wartość 00h
 
 ![Obraz10](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/8f52b832-f055-4bd8-bc8d-d60f74b35bc6)
-2.	Dodawanie pierwszej części liczby.
+2.Dodawanie pierwszej części liczby.
 
 Analogicznie jak wcześniej.
 
@@ -117,7 +118,7 @@ o	Aktywowane flagi PSW (Program Status Word).
 
 ![Obraz11](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/a1bd9d1a-4864-4060-a741-76f3f2f019b6)
 
-3.	Dodawanie drugiej części liczby.
+3.Dodawanie drugiej części liczby.
 
 o	Analogicznie jak wcześniej.
 
@@ -137,6 +138,7 @@ Podsumowanie działania programu i inne wnioski
 •	Wynik: 0400h (poprawny).
 
 ![Obraz13](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/0eea72ea-a89d-454e-9c3b-b45157c4a504)
+
 •	Aktywowane flagi PSW w trakcie działania programu.
 
 o	P – parity bit.
@@ -156,11 +158,11 @@ Program – odejmowanie dwóch liczb 16-bitowych
 ![Obraz14](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/8f67ce5c-772e-4d25-9859-6f2275e2278e)
 
 Debugowanie
-1.	Uruchomienie programu. Załadowanie liczby 0400h do pamięci.
+1.Uruchomienie programu. Załadowanie liczby 0400h do pamięci.
 
 ![Obraz15](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/1b2804fa-be57-4613-beb8-ca6e28014ef5)
 
-2.	Odejmowanie pierwszej części liczby 16-bitowej (00h – E8h z pożyczeniem bitu).
+2.Odejmowanie pierwszej części liczby 16-bitowej (00h – E8h z pożyczeniem bitu).
 
 
 ![Obraz16](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/7183b308-1301-4350-a10f-5c9f68606d2c)
