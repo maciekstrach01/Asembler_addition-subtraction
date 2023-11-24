@@ -7,7 +7,6 @@ Celem zadania jest zaprezentowanie programu do dodawania, a następnie odejmowan
 Program – dodawanie dwóch liczb 16-bitowych
 ![Obraz1](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/1867971d-e8c8-4f6d-b5a2-a6708d67d04c)
 
-Debugowanie 1 
 
 1.Uruchomienie programu. Komórki DanaL  i DanaH mają domyślnie wartości 0x00
 ![Obraz2](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/024eb88f-964d-4b2d-9608-2ed6be98d570)
