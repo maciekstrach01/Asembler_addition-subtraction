@@ -1,0 +1,57 @@
+A51 MACRO ASSEMBLER  PROGRAM                                                              03/23/2023 18:24:24 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\Program.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE Program.a51 SET(SMALL) DEBUG PRINT(.\Listings\Program.lst) OBJECT(.\Obj
+                      ects\Program.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+  03E8                 1     Stala EQU 1000          ; stala o wartosci 1000 w systemie dziesietnym (03E8h)
+  0020                 2     DanaL DATA 20h          ; odnosnik do adresu pamieci, w systemie szesnastkowym
+  0021                 3     DanaH DATA 21h          ; odnosnik do adresu pamieci
+  0030                 4     WynikL DATA 30h         ; odnosnik do adresu pamieci
+  0031                 5     WynikH DATA 31h         ; odnosnik do adresu pamieci
+                       6             
+----                   7     CSEG AT 0                       ; Dyrektywa
+0000 2100              8     JMP start                       ; Przeskoczenie do funkcji start
+                       9             
+----                  10     CSEG AT 100h            ; Dyrektywa
+0100                  11             start:
+0100 7520F1           12                     MOV DanaL,#0xf1         ; Zapisanie stalej do komorki DanaL
+0103 75210D           13                     MOV DanaH,#0x0d         ; Zapisanie stalej do komorki DanaH
+                      14             
+0106 E520             15                     MOV A,DanaL             ; Przeniesienie zawartosci komorki DanaL do akumula
+                             tora
+0108 94E8             16                     SUBB A,#low(Stala)      ; Odejmowanie od akumulatora czesci stalej - E8h - 
+                             z pozyczeniem
+010A F530             17                     MOV WynikL,A            ; Przeniesienie zawartosci akumulatora do komorki W
+                             ynikL
+010C E521             18                     MOV A,DanaH                     ; Przeniesienie zawartosci komorki DanaH do
+                              akumulatora
+010E 9403             19                     SUBB A,#high(Stala)     ; Odejmowanie od akumulatora czesci stalej - 03h - 
+                             z pozyczeniem
+0110 F531             20                     MOV WynikH,A            ; Przeniesienie zawartosci akumulatora do komorki W
+                             ynikH
+                      21     END                                     ; Dyrektywa
+A51 MACRO ASSEMBLER  PROGRAM                                                              03/23/2023 18:24:24 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DANAH. . . . . . .  D ADDR   0021H   A   
+DANAL. . . . . . .  D ADDR   0020H   A   
+STALA. . . . . . .  N NUMB   03E8H   A   
+START. . . . . . .  C ADDR   0100H   A   
+WYNIKH . . . . . .  D ADDR   0031H   A   
+WYNIKL . . . . . .  D ADDR   0030H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\Program.obj" 
+TO ".\Objects\Zadanie_1_sub" 
+PRINT(".\Listings\Zadanie_1_sub.m51") RAMSIZE(256) 
