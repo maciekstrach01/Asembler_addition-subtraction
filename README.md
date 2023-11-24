@@ -22,7 +22,7 @@ o   Zapisanie wyniku operacji do komórki WynikL.
 
 ![Obraz3](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/5410ead5-1ea3-4137-b9ea-61c765527949)
 
-3.	Dodawanie drugiej części liczby.
+3.Dodawanie drugiej części liczby.
 
 o	Załadowanie zawartości komórki DanaH do akumulatora.
 
