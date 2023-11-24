@@ -157,7 +157,6 @@ Program – odejmowanie dwóch liczb 16-bitowych
 
 ![Obraz14](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/8f67ce5c-772e-4d25-9859-6f2275e2278e)
 
-Debugowanie
 1.Uruchomienie programu. Załadowanie liczby 0400h do pamięci.
 
 ![Obraz15](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/1b2804fa-be57-4613-beb8-ca6e28014ef5)
@@ -167,7 +166,7 @@ Debugowanie
 
 ![Obraz16](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/7183b308-1301-4350-a10f-5c9f68606d2c)
 
-3. Odejmowanie drugiej części liczby 16-bitowej (04h – 03h – pożyczony bit). Koniec działania programu.
+3.Odejmowanie drugiej części liczby 16-bitowej (04h – 03h – pożyczony bit). Koniec działania programu.
 
 ![Obraz17](https://github.com/maciekstrach01/Asembler_addition-subtraction/assets/146733279/9d64ec7c-26ec-46a6-bb9a-2dd428b09452)
 
